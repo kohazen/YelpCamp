@@ -13,3 +13,11 @@ const CampgroundSchema = new Schema({
 
 module.exports = mongoose.model('Campground',CampgroundSchema);
 //we made a model from the schema and named it "Campground"
+
+//Notes
+//Each JavaScript file in your Node.js project is considered a module.
+//module.exports is an object that holds the values or functions you want to make available for other parts of your application.
+//
+
+
+
